@@ -82,10 +82,10 @@ function Nav() {
         <nav className="hidden items-center gap-8 text-sm font-medium text-muted-foreground md:flex">
           <a href="#hoe" className="transition-colors hover:text-foreground">Hoe het werkt</a>
           <a href="#features" className="transition-colors hover:text-foreground">Features</a>
-          <a href="/app-in-ontwikkeling?variant=geen-reviews" className="transition-colors hover:text-foreground">Download</a>
+          <a href="/app-in-ontwikkeling-geen-reviews" className="transition-colors hover:text-foreground">Download</a>
         </nav>
         <a
-          href="/app-in-ontwikkeling?variant=geen-reviews"
+          href="/app-in-ontwikkeling-geen-reviews"
           className="inline-flex h-10 items-center rounded-full bg-primary px-5 text-sm font-bold text-primary-foreground transition-transform hover:scale-[1.02]"
         >
           Start Gratis
@@ -132,7 +132,7 @@ function Hero() {
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <a
-              href="/app-in-ontwikkeling?variant=geen-reviews"
+              href="/app-in-ontwikkeling-geen-reviews"
               className="group inline-flex h-12 items-center gap-2 rounded-full bg-foreground px-6 text-sm font-bold uppercase tracking-wide text-background transition-all hover:gap-3"
             >
               Start Gratis
